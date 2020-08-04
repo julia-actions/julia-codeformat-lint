@@ -2,6 +2,10 @@ name: 'Lint Julia code for formatting'
 description: 'A Julia code format linter based on DocumentFormat.jl'
 author: 'David Anthoff'
 
+branding:
+  icon: 'eye'
+  color: 'gray-dark'
+
 runs:
   using: 'composite'
   steps:
